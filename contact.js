@@ -11,7 +11,7 @@ function sendEmail() {
     var businessFieldInput = document.querySelector('.contact-page__input[placeholder="Lĩnh vực kinh doanh"]');
     var businessField = businessFieldInput ? businessFieldInput.value : '';
     
-    var budgetInput = document.querySelector('.contact-page__input[placeholder="kinh phí dự kiến"]');
+    var budgetInput = document.querySelector('.contact-page__input[placeholder="Kinh phí dự kiến"]');
     var budget = budgetInput ? budgetInput.value : '';
     
     var contentInput = document.querySelector('.contact-page__input[placeholder="Nội dung..."]');
@@ -22,7 +22,7 @@ function sendEmail() {
     var phone_2 = document.querySelector('.quick-contact__input[placeholder="Số điện thoại"]').value;
     var email_2 = document.querySelector('.quick-contact__input[placeholder="Email"]').value;
     var businessField_2 = document.querySelector('.quick-contact__input[placeholder="Lĩnh vực kinh doanh"]').value;
-    var budget_2 = document.querySelector('.quick-contact__input[placeholder="kinh phí dự kiến"]').value;
+    var budget_2 = document.querySelector('.quick-contact__input[placeholder="Kinh phí dự kiến"]').value;
     var content_2 = document.querySelector('.quick-contact__input[placeholder="Mô tả ngắn ý tưởng của bạn..."]').value;
 
     const serviceID = "service_tphutli";
